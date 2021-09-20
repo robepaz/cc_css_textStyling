@@ -49,6 +49,7 @@ h6 {
   line-height: 1.25;
   margin-bottom: 5px;
   transition: font-size 0.25s ease;
+  color: orangered;
 }
 
 h1 {
@@ -82,8 +83,8 @@ a {
 li {
   color: #414546;
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 20px;
+  line-height: 25px;
   list-style: none;
 }
 
@@ -287,7 +288,8 @@ input:focus {
 }
 
 .site-main-header h1 {
-  color: #ffffff;
+  color: #orangered;
+
   text-transform: uppercase;
 }
 
@@ -298,7 +300,8 @@ input:focus {
 .section-header p {
   border-bottom: 1px solid #62a7b3;
   color: #1b1b1b;
-  font-size: 16px;
+  font-size: 20px;
+  text-transform: uppercase;
   font-weight: 300;
   line-height: 21px;
   padding-bottom: 5px;
@@ -343,11 +346,13 @@ input:focus {
 .movie-description-category {
   border-bottom: 1px solid #62a7b3;
   border-top: 1px solid #62a7b3;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   margin: 20px auto;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .review-header {
@@ -356,4 +361,14 @@ input:focus {
 
 .review-header h2 {
   text-transform: uppercase;
+}
+
+.stars-label {
+  font-family: monospace;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.featured-section-header {
+  color: #ffffff;
 }
